@@ -1,10 +1,28 @@
 # Chat
 
+## Servidor desarrollo
+
+Para iniciaro el servidor de angular, debe ejecutar `ng serve`. Debe tener instalado el cli de Angular y las dependencias del proyecto.
+
+Para ejecutar el servidor de socket.io, debe ejecutar `npm run socket`.
+
+Para acceder a ambos, solo navegue en `http://localhost:3000`.
+
+Para una prueba simple de funcionalidad de socket.io, puede ingresar a `http://localhost:3000/chat`.
+
+
+
+# Readme
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.8.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+Run the socket.io server with `npm run socket`. Navigate to `http://localhost:3000/`. Here you can rub both, angular & socket.io server.
+
+You can open a socket.io test chat in `http://localhost:3000/chat`.
 
 ## Code scaffolding
 
